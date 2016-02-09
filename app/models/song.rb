@@ -4,6 +4,6 @@ class Song < ActiveRecord::Base
 
 	validates :name, presence: true, uniqueness: true
 	validates :artist_id, presence: true
-	validates :ratint, presence: true
+	validates :rating, presence: true
 
 end
