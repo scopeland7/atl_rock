@@ -1,2 +1,9 @@
-<h1>Rock#roll</h1>
-<p>Find me in app/views/rock/roll.html.erb</p>
+<h1>Top 5 Favorite Tracks</h1>
+
+<ol>
+	<li>"<%= @songs[-1].name %>" by <strong><%= @songs[-1].artist.name %></strong></li>
+	<li>"<%= @songs[-2].name %>" by <strong><%= @songs[-2].artist.name %></strong></li>
+	<li>"<%= @songs[-3].name %>" by <strong><%= @songs[-3].artist.name %></strong></li>
+	<li>"<%= @songs[-4].name %>" by <strong><%= @songs[-4].artist.name %></strong></li>
+	<li>"<%= @songs[-5].name %>" by <strong><%= @songs[-5].artist.name %></strong></li>
+</ol>
