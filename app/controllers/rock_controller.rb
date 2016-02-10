@@ -1,7 +1,5 @@
 class RockController < ApplicationController
   def roll
-  	@songs = Songs.all
-  	@songs.sort_by(@songs.rating)
-  	@songs.save
+  	@songs = Song.all.order('rating')
   end
 end
